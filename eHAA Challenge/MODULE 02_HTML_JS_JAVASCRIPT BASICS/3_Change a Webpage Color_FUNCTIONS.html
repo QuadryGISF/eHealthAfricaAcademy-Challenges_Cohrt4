@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Webpage Background Color</title>
+
+    <style>
+        body {
+            background-color: whitesmoke;
+        }
+        button {
+            position: absolute;
+            margin-top: 5%;
+            margin-left: 40%;
+            padding: 20px;
+            border: gold;
+            border-style: outset;
+            border-width: 8px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2em;
+            cursor: pointer;         
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Welcome...</h1>
+    <h1>Webpage under CONSTRUCTION !!!</h1>
+    <button id="colorchange">Click here to<br>Change bg color</button>
+
+    <script>
+        const colorchange = document.getElementById('colorchange');
+        
+        colorchange.addEventListener('click', function onclick(event) {
+            document.body.style.backgroundColor = '#388bfd'
+        })
+    </script>
+    
+</body>
+</html>
+

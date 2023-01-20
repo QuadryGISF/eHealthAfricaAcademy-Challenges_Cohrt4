@@ -1,0 +1,72 @@
+#birthdaycontainer {
+    width: 580px;
+    margin:auto;
+    border: 10px solid rgb(239, 217, 95);
+    background-color: rgb(247, 229, 231);
+}
+#birthdaybaloon1 {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 60px;
+    float: left; 
+    border: 2px solid fuchsia;
+}
+#birthdaybaloon2 {
+    margin-top: 10px;
+    margin-left: 250px;
+    position: absolute;
+    border: 2px solid fuchsia;
+}
+#birthday-title {
+    position: relative;
+    width: 270px;
+    margin-top: 10px;
+    margin-left: 150px;
+    font-family: cursive;
+    font-size: x-large;
+    font-weight: bolder;
+    color: dodgerblue;
+     
+}
+#to {
+    color: fuchsia;
+    margin-left: 283px;
+    font-size: 2em;
+    font-family: cursive;
+}
+
+#suzan {
+ 
+    width: 450px;
+    font-family: cursive;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-left: 82px;
+    color: fuchsia;
+
+}
+#birthday-details-container {
+    position: relative;
+    width: 260px;
+    margin-left: 160px;
+    background-color: rgb(247, 223, 85);
+}
+#birthday-footer {
+    text-align: center;
+    font-size: large;
+    font-family: cursive;
+    font-weight: bold;
+    color: fuchsia;
+}
+#qr-code {
+    position: relative;
+    margin-left: 212px;
+}
+#scan {
+    width: 90px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-left: 261px;
+    color: dodgerblue;
+
+}

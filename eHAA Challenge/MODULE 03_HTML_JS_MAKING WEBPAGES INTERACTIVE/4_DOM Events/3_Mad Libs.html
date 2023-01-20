@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Challenge: Mad Libs</title>
+ </head>
+ <body>
+ 
+    <h1>Mad Libs</h1>
+     
+    <ul>
+      <li>Noun: <input type="text" id="noun"></li>
+      <li>Adjective: <input type="text" id="adjective"></li>
+      <li>Someone's Name: <input type="text" id="person"></li>
+    </ul>
+     
+    <button id="lib-button">Lib it!</button>
+      
+    <p>Generated story: 
+    <span id="story"></span>
+    </p>
+ 
+    <script>
+        var libButton = document.getElementById('lib-button');
+        var libIt = function() {
+            var storyDiv = document.getElementById("story");
+            var lib1 = document.getElementById('person').value;
+            var lib2 = document.getElementById('adjective').value;
+            var lib3 = document.getElementById('noun').value;
+            storyDiv.innerHTML = lib1 +' '+ lib2 +' '+ lib3;
+        };
+        libButton.addEventListener('click', libIt);
+
+            
+    </script>
+  
+ </body>
+</html>

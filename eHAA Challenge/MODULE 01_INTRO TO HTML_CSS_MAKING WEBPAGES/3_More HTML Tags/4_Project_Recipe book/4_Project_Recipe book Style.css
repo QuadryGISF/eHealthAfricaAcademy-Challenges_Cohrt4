@@ -1,0 +1,32 @@
+#title {
+        color: chocolate;
+
+}
+
+#frittatarecipe {
+    background-color: gold;
+}
+
+#eggtacosrecipe {
+    background-color: blueviolet;
+}
+
+#eggsinabasketrecipe {
+    background-color: brown;
+}
+
+body {
+    margin: 0px 310px 100px 310px;
+}
+
+body {
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+.howto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
